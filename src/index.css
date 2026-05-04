@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+.main {
+  background: #000;
+  height: 90%;
+  width: 100%;
+  padding: 20px 30px;
+  overflow: auto;
+}
+.main::-webkit-scrollbar {
+  display: none;
+}
+.scd_div {
+  height: 345px;
+  width: 345px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.father {
+  background: #000;
+  width: 100vw;
+  height: 100vh;
+  padding: 10px 20px;
+}
+.mn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
